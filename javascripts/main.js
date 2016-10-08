@@ -1,1 +1,8 @@
-console.log("main.js");
+
+
+"use strict";
+
+const outputDiv = $("#output");
+console.log("main", outputDiv);
+
+console.log("test");
