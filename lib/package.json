@@ -1,0 +1,31 @@
+{
+  "name": "orchard",
+  "version": "1.0.0",
+  "description": "growing some trees",
+  "main": "javascripts/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd .. && http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OwenHerndon/orchard.git"
+  },
+  "keywords": [
+    "trees"
+  ],
+  "author": "Owen Herndon <owen.w.herndon@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OwenHerndon/orchard/issues"
+  },
+  "homepage": "https://github.com/OwenHerndon/orchard#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "matchdep": "^1.0.1"
+  }
+}
